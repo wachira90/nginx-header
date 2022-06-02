@@ -2,10 +2,7 @@
 
 ## INSTALL BASIC PACKAGE
 ````
-yum install gcc -y
-yum install pcre-devel -y
-yum install zlib-devel -y
-yum install gd gd-devel -y
+yum install gcc pcre-devel zlib-devel gd gd-devel openssl-devel -y
 ````
 
 ## DIRECTORY
