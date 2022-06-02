@@ -8,6 +8,14 @@ yum install zlib-devel -y
 yum install gd gd-devel -y
 ````
 
+## DIRECTORY
+
+````
+/root/nginx-header/
+/root/nginx-1.20.1.tar.gz
+
+````
+
 ## EXTRACT
 
 ````
@@ -23,7 +31,7 @@ cd nginx-1.20.1/
 --lock-path=/var/lock/nginx.lock --pid-path=/var/run/nginx.pid --with-http_ssl_module \
 --with-http_image_filter_module=dynamic --modules-path=/etc/nginx/modules --with-http_v2_module \
 --with-stream=dynamic --with-http_addition_module --with-http_mp4_module \
---add-module=/root/nginx-addon/headers-more-nginx-module
+--add-module=/root/nginx-header
 ````
 
 ## MAKE INSTALL
