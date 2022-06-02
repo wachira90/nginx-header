@@ -81,6 +81,9 @@ systemctl start nginx.service
 systemctl stop nginx.service
 systemctl restart nginx.service
 systemctl status nginx.service
+
+systemctl enable nginx
+systemctl disable nginx
 ````
 
 ### ORIGINAL PACKAGE
