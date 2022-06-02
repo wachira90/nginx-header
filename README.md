@@ -41,6 +41,16 @@ nginx -s stop
 nginx -s reload
 ````
 
-git clone https://github.com/openresty/headers-more-nginx-module.git
+## ADD IN CONFIG
 
+````
+server_tokens off;
+more_set_headers "Server: ";
+````
+
+### ORIGINAL PACKAGE
+
+````
+git clone https://github.com/openresty/headers-more-nginx-module.git
 wget 'http://nginx.org/download/nginx-1.20.1.tar.gz'
+````
