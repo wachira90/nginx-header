@@ -8,6 +8,10 @@ yum install gcc pcre-devel zlib-devel gd gd-devel openssl-devel -y
 ## DIRECTORY
 
 ````
+git clone https://github.com/wachira90/nginx-header.git
+
+mv nginx-header/nginx-1.20.1.tar.gz .
+
 /root/nginx-header/
 /root/nginx-1.20.1.tar.gz
 
