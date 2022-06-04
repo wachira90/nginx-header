@@ -87,6 +87,14 @@ systemctl enable nginx
 systemctl disable nginx
 ````
 
+### TEST ON
+
+````
+CENTOS 7
+FEDORA 35 
+UBUNTU 18.04
+````
+
 ### ORIGINAL PACKAGE
 
 ````
